@@ -7,7 +7,7 @@
 <li>S3 </li>
 <li>RDS </li>
 <li>Athena</li>
-<li>Streamlit</li>
+<li>Streamlit</li><br><br>
 
   You are hired as a Data Engineer for an e-commerce company where the Order
 and Returns teams regularly upload data files through a Streamlit web
@@ -26,7 +26,7 @@ their needs to upload their respective data files.</li>
 <li>The Order team uploads "order" data files, while the Returns team uploads
 "returned" data files.</li>
 <li>The Streamlit app ensures secure data transfer and uploads the files to
-designated S3 buckets for each team.</li><br><br>
+designated S3 buckets for each team.</li>
 
 <h4>Lambda Trigger and Glue ETL:</h4>
 <li>Set up an AWS Lambda function that's triggered when new files are
