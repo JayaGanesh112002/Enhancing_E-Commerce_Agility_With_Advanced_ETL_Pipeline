@@ -35,7 +35,7 @@ uploaded to the Order and Returns S3 buckets.</li>
 data files, perform data transformation using PySpark, and join the
 datasets based on the "Order ID" column.</li>
 
-<h4>Data Join and Redshift:</h4>
+<h4>Data Join and RDS:</h4>
 <li>The Glue ETL job outputs the joined dataset based on “Order ID”, which
 includes information from both the "order" and "returned" data files.</li>
 <li>Store the joined table into RDS and finally team
